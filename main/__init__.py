@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+API_ID = config("API_ID", "26254064")
+API_HASH = config("API_HASH", "72541d6610ae7730e6135af9423b319c")
+BOT_TOKEN = config("BOT_TOKEN", "7370024975:AAHA45hg0iqXvdofFi4Jlf8hfi7uV0ma-vE")
+SESSION = config("SESSION", "BQGQmvAAnZC4bkzKqrzk-bQEla0eqARxttqINRfXqxzztUB0PpDtpQXGs36dYQaWREfcsfWlMr7El4NTthna1Zko4C-JMmM5nN2qBWRR-y8jLg76Qh4Co4hrOeLw2DySykY_QkUoQHVl4fTVEbgoygo3eyhiz1kTODw23hgDXKUDaCcaV5tu4QrkP9Aj903XXxQziBiX2JR67_-dvTTAikTacL12dwuiDnDccb7b2JX2xOVMy2_L74jSZamJFAZcnwaK-Gm5T55SzVU8l4s8xrsaJ8NAekag60hfPGZHZqPe2vElpp28SsToO0HVndrQ7EVv9th5iziI_Sf9uZa8EdfCcK-IeAAAAAE7s3WDAA")
+FORCESUB = config("FORCESUB", "AnimeQuestX")
+AUTH = config("AUTH", "5296584067")
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
